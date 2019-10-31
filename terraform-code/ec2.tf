@@ -1,7 +1,7 @@
 provider "aws" {
   profile = "default"
   region  = "eu-west-1"
- //   version = "~> 3.0"
+  version = "~> 2.33"
 }
 
 resource "aws_instance" "asdojl" {
