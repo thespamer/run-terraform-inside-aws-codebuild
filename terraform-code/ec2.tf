@@ -18,7 +18,7 @@ resource "aws_instance" "gitasdojl" {
 //  instance = aws_instance.gitasdojl.id
 // }
 
-resource "aws_s3_bucket" "asdojl" {
+resource "aws_s3_bucket" "gitasdojl" {
   bucket = "gittfasdojl"
   acl    = "private"
 }
