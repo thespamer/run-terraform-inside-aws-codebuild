@@ -1,9 +1,3 @@
-provider "aws" {
-  profile = "default"
-  region  = "eu-west-1"
-  version = "~> 2.33"
-}
-
 resource "aws_instance" "gitasdojl" {
   ami           = "ami-02df9ea15c1778c9c"
   instance_type = "t2.micro"
